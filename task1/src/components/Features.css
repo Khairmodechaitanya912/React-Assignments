@@ -1,0 +1,49 @@
+.feature-title{
+    margin: 10px 0;
+    text-align: center;
+}
+.features-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin: 40px auto;
+    gap: 50px;
+}   
+.f-cards{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid;
+
+    &:hover{
+    background: rgb(2,222,255);
+    background: linear-gradient(125deg, rgba(2,222,255,1) 0%, rgba(8,128,247,1) 0%, rgba(128,39,253,1) 68%, rgba(177,0,255,1) 100%, rgba(2,0,36,1) 100%);
+    border: none;
+    color: whitesmoke;
+    }
+    &:hover i{
+        color: black;
+        border: none;
+    }
+    &:hover a{
+        color: whitesmoke;
+    }
+}
+i{
+    width: 80px;
+    padding: 12px;
+    background-color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+.f-heading{
+    margin: 10px 0 0 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 14, 14);
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: #EAF2FF;
+}
+.music-container{
+    width: 80%;
+    margin: 20px auto;
+}
+.events-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.card-event{
+    display: flex;
+    gap: 30px;
+}
+.date-time{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.buy-btn{
+    align-self: center;
+}
+button{
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: black;
+}

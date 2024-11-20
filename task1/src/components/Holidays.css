@@ -1,0 +1,13 @@
+.holidays-container{
+    width: 80%;
+    margin: auto;
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-evenly;
+}
