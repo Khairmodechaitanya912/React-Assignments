@@ -1,0 +1,25 @@
+.Btn-Section{
+    display: flex;
+    margin: 60px 0;
+}
+.Btn{
+    width: 70%;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px gray;
+}
+.Btn button{
+    margin: 10px 10px 0 0;
+}
+.vr{
+    height: 70px;
+    margin: -40px 0;
+}
+.txt-colors{
+    text-align: end;
+    margin: 0 8px 0 0;
+}
+.txt-colors label{
+    margin: 0 30px 0 0;
+}
